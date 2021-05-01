@@ -1,0 +1,318 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+.news{
+    width: 90%;
+}
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/background.jpg") ;
+    /* opacity: 80%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 0%;
+    height: 360%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    position: fixed;
+    margin: 1rem;
+    width: 6rem;
+}
+.navbar{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 7rem;
+    
+    /* margin: 1rem; */
+}
+.navigation{
+    margin: 1.8rem;
+    list-style: none;
+    display:flex;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.navigation a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top:2rem;
+    text-decoration: none;
+    margin:3rem;
+    transition: 0.5s ease;
+    
+    color: white;
+}
+.navigation a:hover{
+    font-size: 2.2rem;
+}
+.para11{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Montserrat', sans-serif;; */
+    color: white;
+    margin-bottom: 2rem;
+}
+.para11 u{
+font-size: 5rem;
+font-family: 'Montserrat', sans-serif;
+}
+.sear{
+    width: 66rem;
+    height: 4rem;
+}
+.sear input{
+    font-size: 2rem;
+    /* width: 66rem;
+    height: 4rem; */
+}
+
+.form1{
+    font-size: 1.6rem;
+    border: 1px solid white;
+    border-radius: 10rem;
+    background: transparent;
+}
+#bttn{
+    text-align: center;
+    margin-top: 2rem;
+    border: 1px solid white;
+    border-radius: 100px;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background: transparent;
+}
+.form11{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+@media (max-width: 998px){
+    html{
+        font-size: 55%;
+    }
+    .para p{
+        font-size: 2rem;
+        margin-top: 0.8rem;
+    }
+    .para h1{
+        font-size: 5rem;
+        }
+        /* .button1 h2{
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        } */
+        .para{
+            margin-top: 20rem;
+        }
+        .button1{
+            margin-top: 14rem;
+            display: flex;
+            /* flex-direction: column; */
+            align-items: center;
+            justify-content: center;
+        }
+        .button1 button{
+            align-items: center;
+            border: 0.2rem solid white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background: transparent;
+            color: white;
+            width: 40rem;
+            height: 10rem;
+            padding: 0.5rem;
+            font-size: 3.5rem;
+            margin: 2rem;
+            transition: 0.5s ease;
+        }
+        }
+        /* .navigation {margin-left: rem;} */
+        .navigation a{
+            margin: 3rem;
+            
+            font-size: 2.5rem;
+            padding: 0.1rem;
+        }
+@media (max-width: 806px){
+    html{
+        font-size: 45%;
+    }
+    .para p{
+        font-size: 2.5rem;
+        margin-top: 0.8rem;
+    }
+    .para h1{
+        font-size: 6rem;
+        }
+        /* .button1 h2{
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        } */
+        .para{
+            margin-top: 28rem;
+        }
+        .button1{
+            margin-top: 18rem;
+            display: flex;
+            /* flex-direction: column; */
+            align-items: center;
+            justify-content: center;
+        }
+        .button1 button{
+            align-items: center;
+            border: 0.2rem solid white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background: transparent;
+            color: white;
+            width: 45rem;
+            height: 10rem;
+            padding: 0.5rem;
+            font-size: 3.7rem;
+            margin: 2rem;
+            transition: 0.5s ease;
+        }
+        /* .navigation {margin-left: rem;} */
+        .navigation a{
+            margin: 3rem;
+            
+            font-size: 3rem;
+            padding: 0.1rem;
+        }
+@media (max-width: 662px){
+    html{
+        font-size: 35%;
+    }
+    /* .heading{
+        margin-top: 10rem;
+    } */
+    .para p{
+        font-size: 2.5rem;
+        margin-top: 0.8rem;
+    }
+    .para h1{
+        font-size: 7rem;
+        }
+        /* .button1 h2{
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        } */
+        .para{
+            margin-top: 32rem;
+        }
+        .button1{
+            margin-top: 27rem;
+            display: flex;
+            /* flex-direction: column; */
+            align-items: center;
+            justify-content: center;
+        }
+        .button1 button{
+            align-items: center;
+            border: 0.2rem solid white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background: transparent;
+            color: white;
+            width: 53rem;
+            height: 11rem;
+            padding: 0.5rem;
+            font-size: 5rem;
+            margin: 2rem;
+            transition: 0.5s ease;
+        }
+        /* .navigation {margin-left: rem;} */
+        .navigation a{
+            margin: 3rem;
+            
+            font-size: 3.5rem;
+            padding: 0.1rem;
+        }
+@media (max-width: 495px){
+    .navigation {margin-left: 2rem;}
+    .navigation a{
+        margin: 1.5rem;
+        
+        font-size: 2.6rem;
+        padding: 0.1rem;
+    }
+    html{
+        font-size: 42%;
+    }
+    .content11{
+        margin-top: 0.8rem;
+    }
+    .para h1{
+        font-size: 5rem;
+        }
+        .button1 h2{
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .para{
+            margin-top: 15rem;
+        }
+        .button1{
+            margin-top: 23rem;
+            display: flex;
+            /* flex-direction: column; */
+            align-items: center;
+            justify-content: center;
+        }
+        .button1 button{
+            align-items: center;
+            border: 0.2rem solid white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background: transparent;
+            color: white;
+            width: 47rem;
+            height: 10rem;
+            padding: 0.5rem;
+            font-size: 4.5rem;
+            margin: 2rem;
+            transition: 0.5s ease;
+        }
+@media (max-width: 414px){
+    html{
+        /* <h1>COVID RESOURCES<br> WEBSITE</h1> */
+        font-size: 38%;
+    }
+    .para h1{
+        font-size: 4rem;
+        }
+
+        .button1 h2{
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .content11{
+            margin-top: 0.8rem;
+        }
+        .navigation {margin-left: 2rem;}
+        .navigation a{
+            margin: 1.5rem;
+            
+            font-size: medium;
+            padding: 0.1rem;
+        }
+@media (max-width: 331px){
+    html{
+        font-size: 35%;
+    }
+    .para h1{
+        font-size: 4rem;
+        }
+        .navigation {
+            margin-left: 4rem;
+        }
